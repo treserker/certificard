@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto";
+  background: linear-gradient(236.85deg, #009977 27.26%, #00eecc 96.03%);
+}
+
+.container {
+  background: #ecf4ff;
+  color: #00cba9;
+  margin: 64px;
+  border-radius: 30px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  max-height: 160px;
+  left: 154px;
+  top: 79px;
+  border-radius: 460px;
+  box-shadow: 0px 4px 4px rgba[0, 0, 0, 0.25];
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700px;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400px;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight; 400;
+  padding: 8px 16px;
+  background-color: #ecf4ff;
+  color: #00cba9;
+  border-radius: 120px;
+  border: 2px solid #00cba9;
+}
+
+.projetos {
+  display: flex;
+  color: #ecf4ff;
+  flex-direction: column;
+  background: linear-gradient(236.85deg, #00eecc 27.26%, #009977 96.03%);
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 30px;
+  margin-top: 16px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.projetos-item a {
+  color: #ecf4ff;
+  text-decoration: none;
+}
+
+.dark {
+  
+}
+
+.dark .container {
+  background: #333439;
+}
+
+.dark .projetos {
+  color: #333439;
+}
+
+.dark .tema button {
+  background-color: #333439;
+}
